@@ -51,4 +51,17 @@ fun main() {
     for( monitor in monitorFreqKeys ){
         println( "$monitor has ${collectionsLesson.monitorFreq[monitor]}hz" )
     }
+    println("----------")
+
+    println("Lesson 3: Control Flow")
+
+    val controlFlowLesson = ControlFlowLesson(5,3,3)
+
+    controlFlowLesson.compareTwoValues()
+    controlFlowLesson.getPlate("truck")
+    controlFlowLesson.getPlate("myType")
+    controlFlowLesson.getMonth()
+    controlFlowLesson.printRangeTask()
+    controlFlowLesson.fizzBuzzGame()
+    controlFlowLesson.certainWord()
 }
